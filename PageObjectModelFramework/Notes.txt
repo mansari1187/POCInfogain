@@ -1,0 +1,45 @@
+Selenium contains multiple locators
+
+id
+name
+xpath
+css
+linktext
+classaname
+
+
+xpath 
+
+1- <anything (purple)-- Tagname 
+red color -- Attribute
+blue color- value
+black color - text 
+
+
+1-  //tagname[@ttribute='value']
+
+//textarea[@title='Search']
+
+//a[@href='/login']
+
+2 -  //tagname[text()='textvalue']
+
+//a[text()='Store']
+
+//button[text()='Test Cases']
+
+3 - (//button[text()='Test Cases'])[1] -- Index wise xpath or we can location wise xpath
+
+
+//a[text()='Today's Deals']
+
+we can search word with the help of contains keyword in locator
+
+4--- //tagname[contains(text(),'text search value')]
+
+//a[contains(text(),'Deals')]
+
+
+90 - 95 % 
+
+
