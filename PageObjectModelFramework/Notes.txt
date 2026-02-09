@@ -43,3 +43,25 @@ we can search word with the help of contains keyword in locator
 90 - 95 % 
 
 
+
+@BeforeMethod - it will execute before any of the @test
+@AfterMethod -- It will execute after any of the @test
+
+@BeforeClass - It will execute one only before any number of the @test in class
+@AfterClass - it will execute once only after any number of @TEst in the class
+
+
+
+
+
+@Bc
+@Test - test1()
+@Test -- test2()
+@Test -- test3()
+@Ac
+
+
+
+
+
+
