@@ -1,0 +1,48 @@
+{
+  "HomePage": {
+    "signupLoginBtton": {
+      "type": "xpath",
+      "value": "//a[contains(text(),' Signup / Login')]"
+    },
+    "HomeVisible": {
+      "type": "xpath",
+      "value": "//div[@class='features_items']"
+    }
+  },
+  
+  
+  "SignupPage": {
+    "NewUserSignUpText": {
+      "type": "xpath",
+      "value": "//h2[text()='New User Signup!']"
+    },
+    "NameField": {
+      "type": "name",
+      "value": "name"
+    },
+	"EmailField":{
+		"type":"xpath",
+		"value":"(//input[@placeholder='Email Address'])[2]"
+	},
+	"SignUpbutton":{
+		"type":"xpath",
+		"value":"//button[text()='Signup']"
+	}
+	
+  },
+  
+  "AccountPage":{
+	"accountInfoText":{
+		
+		"type":"xpath",
+		"value":"//b[text()='Enter Account Information']"
+		
+	},
+	
+	"GenderRadioButton":{
+		"type":"id",
+		"value":"id_gender1"
+	}
+	
+  }
+}
